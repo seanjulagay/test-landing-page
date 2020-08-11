@@ -1,0 +1,103 @@
+@media all and (max-width: 830px){
+    #header-left {display: none;}
+    #header-right {display: none;}
+}
+
+body, html {
+    background-image: url(images/background/background3.jpg);
+    background-size: cover;
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+}
+
+header {
+    margin: 0;
+    background-color: rgb(0, 0, 0, 0.3);
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+header div {
+    /*border: 2px black solid;*/
+}
+
+header a {
+    color: white;
+}
+
+#header-left {
+    flex: 1;
+    margin: 0;
+    padding: 0 0 0 20px;
+    text-align: left;
+}
+
+#header-title {
+    flex: 1;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    
+}
+
+#header-right {
+    flex: 1;
+    margin: 0;
+    padding: 0 20px;
+}
+
+#header-right ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: right;
+}
+
+#header-right li {
+    display: inline;
+}
+
+#header-right .nav-link:hover {
+    font-size: 20px;
+}
+
+#header-right .nav-link:active {
+    font-size: 50px;
+}
+
+#main-container {
+    color: white;
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 80px;
+    left: 0;
+    margin: auto;
+}
+
+#main-words, #main-buttons, .main-button {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+#main-words h1{
+    font-size: 80px;
+    margin: 0;
+}
+
+.main-button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    padding: 15px 35px;
+}
+
+.main-button:hover {
+    background-color: white;
+    color: darkcyan;
+}
